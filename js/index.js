@@ -24,15 +24,8 @@ if (a==0) {
 			} else {
 				alert ('Немає рішень');
 					}
-		} else {
-			if (c==0){
-				var x;
-				x=b/a;
-				x=-x;
-				printAnswer(x);
-				}
-			}
-	    }
+		    } 
+    }
 var D=b*b-4*a*c;
 console.log ('D= '+D);
 if (D==0) {
